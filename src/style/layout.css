@@ -1,0 +1,12 @@
+#l-app {
+  min-width: 760px;
+  min-height: 760px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#l-timer {
+  margin: 0 100px;
+}

@@ -1,0 +1,102 @@
+.todo-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.todof-label {
+  margin-bottom: 12px;
+}
+
+.todof-input {
+  margin-bottom: 18px;
+  width: 400px;
+  height: 45px;
+  padding: 0 20px;
+  border-radius: 8px;
+  border: #ccc solid 1.5px;
+  text-align: right;
+  outline: none;
+  transition: border ease-in-out 300ms;
+}
+
+.todof-input:focus {
+  border-color: #9ad4d6;
+}
+
+.todof-submit {
+  width: 150px;
+  height: 40px;
+  color: #fff;
+  background: #247ba0;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: box-shadow ease-in-out 300ms, opacity ease-in-out 300ms;
+  outline: none;
+}
+
+.todof-submit:hover {
+  opacity: 0.8;
+  box-shadow: 0 0 10px 1px #eee;
+}
+
+.todof-submit:disabled {
+  opacity: 0.3;
+}
+
+.timer {
+  margin-bottom: 16px;
+  text-align: center;
+  font-size: 48px;
+}
+
+.timer-pomodro {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.timer-wisdom {
+  margin-bottom: 24px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.timer-h1 {
+  text-align: center;
+  font-weight: 200;
+  color: #034748;
+}
+
+.timer-btns {
+  display: flex;
+  justify-content: center;
+}
+
+.timer-btn {
+  width: 200px;
+  padding: 8px 16px;
+  border: none;
+  color: #fff;
+  background: #034748;
+  border-radius: 4px;
+  transition: opacity ease-in-out 300ms;
+  cursor: pointer;
+  outline: none;
+}
+
+.timer-btn:first-of-type {
+  margin-right: 16px;
+  background: #fff;
+  color: #034748;
+  border: #034748 solid 1.5px;
+  font-weight: 700;
+}
+
+.timer-btn:last-of-type {
+  margin-left: 16px;
+}
+
+.timer-btn:hover {
+  opacity: 0.8;
+}
